@@ -1,5 +1,6 @@
 # Youtube-Player
-A static youtube video player 
+A static youtube video player which 
+Uses Google's YouTube Data API v3 .
 
 ## Things that can be done.
 - Play/Pause a single video
