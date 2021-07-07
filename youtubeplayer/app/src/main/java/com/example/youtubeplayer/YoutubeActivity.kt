@@ -14,6 +14,7 @@ import com.google.android.youtube.player.YouTubePlayerView
 const val YVI = "I4AgeDIrHGY"
 const val YP = "PLCsuqbR8ZoiCO028dfW1n5XmbHGEmim1g"
 
+
 class YoutubeActivity : YouTubeBaseActivity(), YouTubePlayer.OnInitializedListener {
 
     private val TAG = "youtubeActivity"
@@ -33,7 +34,7 @@ class YoutubeActivity : YouTubeBaseActivity(), YouTubePlayer.OnInitializedListen
         //b1.text="Button added"
         //layout.addView(b1)
 
-
+    //this is used for using google api and makes the youtube player
         pv.layoutParams = ConstraintLayout.LayoutParams(
             ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT
         )
