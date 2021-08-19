@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+                                                   >
 
     <Button
         android:id="@+id/btnplayvideo"
@@ -13,7 +14,8 @@
         android:layout_marginTop="16dp"
         android:text="Play Video"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" 
+            />
 
     <Button
         android:id="@+id/btnplaylist"
@@ -22,5 +24,6 @@
         android:layout_marginTop="16dp"
         android:text="Play Playlist"
         app:layout_constraintStart_toStartOf="@+id/btnplayvideo"
-        app:layout_constraintTop_toBottomOf="@+id/btnplayvideo" />
+        app:layout_constraintTop_toBottomOf="@+id/btnplayvideo" 
+            />
 </androidx.constraintlayout.widget.ConstraintLayout>
